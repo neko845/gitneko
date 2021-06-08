@@ -9,6 +9,7 @@ public class mainAPP {
 		neko na = new neko();
 		System.out.println();
 		System.out.println(na.add(10, 5));
+		//new push
 	}
 
 }
