@@ -6,6 +6,14 @@ public class mainAPP {
 		// TODO Auto-generated method stub
 		//版本一
 		System.out.println("1st Version");
+		neko na = new neko();
+		System.out.println();
+		System.out.println(na.add(10, 5));
 	}
 
+}
+class neko{
+	int add(int a, int b) {
+		return a+b;
+	}
 }
